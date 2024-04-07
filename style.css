@@ -1,0 +1,45 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+.heading h3 {
+    display: inline;
+}
+.big_image {
+    width:100%;
+}
+#start , #status {
+    font-size: 22px;
+}
+h4{
+    background-color: #f5f5f5;
+    line-height: 2;
+    margin: 0px;
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+#canvas{
+    width: 100%;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+.copy_right_footer {
+    position: fixed;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    background-color: #595959;
+    line-height: 3;
+    text-align: center;
+ }
